@@ -1,0 +1,28 @@
+baseURL: "https://delightful.computer/"
+languageCode: en-us
+title: Delightful Computer ✨
+theme: PaperMod
+enableRobotsTXT: "true"
+buildDrafts: "false"
+buildFuture: "false"
+buildExpired: "false"
+minify:
+  disableXML: "true"
+  minifyOutput: "true"
+params:
+  socialIcons:
+    - name: github
+      url: "https://github.com/hellofrommorgan"
+  assets:
+    disableHLJS: "true"
+    defaultTheme: auto
+  homeInfoParams:
+    Title: "Hello 👋"
+    Content: "Welcome to Morgan's Garden 🌱"
+socialIcons: {}
+markup: {}
+highlight:
+  codeFences: "true"
+  guessSyntax: "true"
+  lineNos: "true"
+  style: monokai
